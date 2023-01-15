@@ -9,13 +9,13 @@
 ## Features
 
 - Signup/Login for the customers (whether buyer or seller)
-- Responsive web application (for the most part at least)
-- Viewing the properties in an asynchronous matter with heafty amount of filters to use
 - Buying and selling the properties on the chain itself
+- Viewing the properties in an asynchronous matter with heafty amount of filters to use
 - Purchase requests that comes in before being able to issue the agreements
 - Agreement system between the buyer and seller as well as having the goverment account as a middleman between the two
 - User management page for the goverment account
 - All documents & images are uploaded via _IPFS_ to achieve full decentralization (the whole purpose of this project)
+- Responsive web application (for the most part at least)
 
 ## Tech
 
@@ -28,7 +28,7 @@ PropBlock uses a number of open source projects to work properly:
 - [Moralis] - for capturing the events emitted by the contract (on-chain data) and storing the users table (off-chain data)
 
 ### My part in completing the project:
-I have been the senior lead of this project by combining all the parts, integrating them, unit test and version control the whole project. However, the fair split of my work is stated as below
-- **API**: Taking the full responsiblity as a sole member in developing and testing the RESTful API requests & integrate it with the front-end.
-- **Smart Contract**: Taking part in helping with the logical thinking of the contract as well as doing some bits here and there that is fully lead by by collegue [@Sultan](https://github.com/sultanspeenjan)
-- **Front End**: Solely fully developed some major pages/components in the website. Unit tested and integrated the whole project as well as making sure everything is styled properly.
+I have been the senior lead of this project by creating the smart contract for the project, combining all the parts, integrating them, as well as unit testing the project as well. However, the fair split of my work is stated as below:
+- **Smart Contract**: Completely developing the smart contract code for the project as well as getting some help in terms of the logical execution of the contract by my collegue [@Ahmed](https://github.com/vaiperboy/)
+- **Front End**: Solely fully developed most of the pages/components in the website as well as majority of styling in SCSS, used different libraries to create the UI including Ant Design, WEB3UIKit, etc.
+- **UI (Figma)**: Solely developed more than 50 UI's for the project which were later translated to code in the front end.
